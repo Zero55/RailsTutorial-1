@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: "Goodbye cruel world!"
   end
+
+  def heroku
+    render html: "Heroku live!"
+  end
 end
